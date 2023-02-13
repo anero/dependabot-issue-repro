@@ -2566,7 +2566,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mapbox/geojson-extent@npm:^1.0.0":
+"@mapbox/geojson-extent@npm:^1.0.1":
   version: 1.0.1
   resolution: "@mapbox/geojson-extent@npm:1.0.1"
   dependencies:
@@ -2608,18 +2608,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mapbox/mapbox-gl-draw@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@mapbox/mapbox-gl-draw@npm:1.3.0"
+"@mapbox/mapbox-gl-draw@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@mapbox/mapbox-gl-draw@npm:1.4.0"
   dependencies:
     "@mapbox/geojson-area": ^0.2.2
-    "@mapbox/geojson-extent": ^1.0.0
+    "@mapbox/geojson-extent": ^1.0.1
     "@mapbox/geojson-normalize": ^0.0.1
     "@mapbox/point-geometry": ^0.1.0
     hat: 0.0.3
     lodash.isequal: ^4.5.0
     xtend: ^4.0.2
-  checksum: 51d32271d9f9941268ca99b45de05bfd3a21080a2a7456eb4996985ce01ba78760a44501753d38cbc0ea1950bddc0927b5d2ea9559cea45320a1bfb2b3c38a40
+  checksum: f73fdef4ecd5733f3d5631f8c8ec76f08856ef1730829a34f24b80beb168aa24d107615b73c0a5c0a803eb835a367ae6514398912ab09865176d59a0446255b4
   languageName: node
   linkType: hard
 
@@ -3848,7 +3848,7 @@ __metadata:
     "@geostarters/mapbox-gl-draw-rectangle-assisted-mode": ^3.0.4
     "@googlemaps/markerclusterer": ^2.0.13
     "@hcaptcha/vue-hcaptcha": ^0.3.2
-    "@mapbox/mapbox-gl-draw": ^1.3.0
+    "@mapbox/mapbox-gl-draw": ^1.4.0
     "@mapbox/mapbox-gl-language": ^1.0.0
     "@popperjs/core": ^2.11.6
     "@rails/actioncable": ^7.0.4-1
