@@ -1,6 +1,22 @@
 version: 2
 updates:
-  - package-ecosystem: "bundler"
+  - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      # Ignore major and minor version updates that are handled manually
+      - dependency-name: "@rails/*"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      - dependency-name: "bootstrap"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "vue"
+        update-types: ["version-update:semver-major"]
+      # vue-chartjs only supports chart.js v2 and v3, so do not auto upgrade to v4
+      - dependency-name: "chart.js"
+        update-types: ["version-update:semver-major"]
+    # Allow up to 10 open pull requests
+    open-pull-requests-limit: 10
+    # To save build resources, do not auto-rebase
+    rebase-strategy: "disabled"
+
