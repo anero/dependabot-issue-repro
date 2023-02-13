@@ -3872,7 +3872,7 @@ __metadata:
     eslint: ^8.28.0
     eslint-plugin-jest: ^27.1.6
     eslint-plugin-vue: ^9.8.0
-    eslint-plugin-vue-scoped-css: ^2.2.0
+    eslint-plugin-vue-scoped-css: ^2.4.0
     file-loader: ^6.2.0
     font-picker-vue: ^1.0.3
     form-request-submit-polyfill: ^2.0.0
@@ -5561,15 +5561,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:~3.1.0":
-  version: 3.1.0
-  resolution: "debug@npm:3.1.0"
-  dependencies:
-    ms: 2.0.0
-  checksum: 0b52718ab957254a5b3ca07fc34543bc778f358620c206a08452251eb7fc193c3ea3505072acbf4350219c14e2d71ceb7bdaa0d3370aa630b50da790458d08b3
-  languageName: node
-  linkType: hard
-
 "decache@npm:^3.0.5":
   version: 3.1.0
   resolution: "decache@npm:3.1.0"
@@ -6126,9 +6117,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vue-scoped-css@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "eslint-plugin-vue-scoped-css@npm:2.2.0"
+"eslint-plugin-vue-scoped-css@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "eslint-plugin-vue-scoped-css@npm:2.4.0"
   dependencies:
     eslint-utils: ^3.0.0
     lodash: ^4.17.21
@@ -6136,11 +6127,11 @@ __metadata:
     postcss-safe-parser: ^6.0.0
     postcss-scss: ^4.0.3
     postcss-selector-parser: ^6.0.9
-    postcss-styl: ^0.9.0
+    postcss-styl: ^0.12.0
   peerDependencies:
     eslint: ">=5.0.0"
     vue-eslint-parser: ">=7.1.0"
-  checksum: 3329d03815cee93e8237e565229b559765b76c8ef0d091c8a8db49e127ae2d0a1f0a0d27e017588abd371405a82a32ff2bd7f0d17375267bebdfc1eb5f2b3810
+  checksum: c2e486b851f5add9592abf5ad4f8bcdc8534fd50e3e23b582ff19da05175bb7d5773347cfcc11efbde2d531aa7de2f36137572b8ea54bb7fd09122440d306183
   languageName: node
   linkType: hard
 
@@ -9230,7 +9221,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mkdirp@npm:^1.0.3, mkdirp@npm:^1.0.4, mkdirp@npm:~1.0.4":
+"mkdirp@npm:^1.0.3, mkdirp@npm:^1.0.4":
   version: 1.0.4
   resolution: "mkdirp@npm:1.0.4"
   bin:
@@ -10357,16 +10348,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-styl@npm:^0.9.0":
-  version: 0.9.0
-  resolution: "postcss-styl@npm:0.9.0"
+"postcss-styl@npm:^0.12.0":
+  version: 0.12.3
+  resolution: "postcss-styl@npm:0.12.3"
   dependencies:
     debug: ^4.1.1
     fast-diff: ^1.2.0
     lodash.sortedlastindex: ^4.1.0
     postcss: ^7.0.27 || ^8.0.0
-    stylus: ^0.55.0
-  checksum: 700dcec84cb963a4c35701a213c6555b04ef98555cc56937f9577afa905eb19dedd7e1fb03b072601d73fc79da6ebf17329e7e505b83a7aef862b3c0b01835e6
+    stylus: ^0.57.0
+  checksum: 3b82d53923988cad1325775288d9a0ac0f0d1c443a9522aaba42134ea0692878ff30c22622b1ca6b5667431f8b0dd110d42d04af970ea9f62241514c56a75783
   languageName: node
   linkType: hard
 
@@ -11983,21 +11974,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylus@npm:^0.55.0":
-  version: 0.55.0
-  resolution: "stylus@npm:0.55.0"
+"stylus@npm:^0.57.0":
+  version: 0.57.0
+  resolution: "stylus@npm:0.57.0"
   dependencies:
     css: ^3.0.0
-    debug: ~3.1.0
+    debug: ^4.3.2
     glob: ^7.1.6
-    mkdirp: ~1.0.4
     safer-buffer: ^2.1.2
     sax: ~1.2.4
-    semver: ^6.3.0
     source-map: ^0.7.3
   bin:
     stylus: bin/stylus
-  checksum: 5ec06f3186aaa4802cc2f04f93665a71348954e3d10f6cb26d7cdba7108fcdfa5e9a330fa7694fa0d0d31d8decf6b18349f49bbaadde96351e30d549dfb272c7
+  checksum: ad914906755608074df4c4a495fb12e7e095d0dfb0477c2bba05d83ea99c5a53ccfe806b82bba4c4455ba97841484f72d4a4381f4e77f0f11e4856742db041db
   languageName: node
   linkType: hard
 
