@@ -2566,7 +2566,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mapbox/geojson-extent@npm:^1.0.0":
+"@mapbox/geojson-extent@npm:^1.0.1":
   version: 1.0.1
   resolution: "@mapbox/geojson-extent@npm:1.0.1"
   dependencies:
@@ -2608,18 +2608,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mapbox/mapbox-gl-draw@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@mapbox/mapbox-gl-draw@npm:1.3.0"
+"@mapbox/mapbox-gl-draw@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "@mapbox/mapbox-gl-draw@npm:1.4.1"
   dependencies:
     "@mapbox/geojson-area": ^0.2.2
-    "@mapbox/geojson-extent": ^1.0.0
+    "@mapbox/geojson-extent": ^1.0.1
     "@mapbox/geojson-normalize": ^0.0.1
     "@mapbox/point-geometry": ^0.1.0
     hat: 0.0.3
     lodash.isequal: ^4.5.0
     xtend: ^4.0.2
-  checksum: 51d32271d9f9941268ca99b45de05bfd3a21080a2a7456eb4996985ce01ba78760a44501753d38cbc0ea1950bddc0927b5d2ea9559cea45320a1bfb2b3c38a40
+  checksum: a2d3800bf80ff2cb091cda5b386a2f0052e4a949c84802b9a69e3902cad512c62ce9df07dfa7a0ffef0ad38bdbb616cd1c95c0816a4bd9ac93c825e65080814d
   languageName: node
   linkType: hard
 
@@ -3848,7 +3848,7 @@ __metadata:
     "@geostarters/mapbox-gl-draw-rectangle-assisted-mode": ^3.0.4
     "@googlemaps/markerclusterer": ^2.0.13
     "@hcaptcha/vue-hcaptcha": ^0.3.2
-    "@mapbox/mapbox-gl-draw": ^1.3.0
+    "@mapbox/mapbox-gl-draw": ^1.4.1
     "@mapbox/mapbox-gl-language": ^1.0.0
     "@popperjs/core": ^2.11.6
     "@rails/actioncable": ^7.0.4-1
@@ -6758,7 +6758,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -10980,7 +10980,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.1.4#~builtin<compat/resolve>, resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.17.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.4.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.9.0#~builtin<compat/resolve>":
   version: 1.22.0
-  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=c3c19d"
   dependencies:
     is-core-module: ^2.8.1
     path-parse: ^1.0.7
