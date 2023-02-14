@@ -3907,7 +3907,7 @@ __metadata:
     rollbar: ^2.26.1
     sass: ^1.56.1
     sass-loader: ^13.2.0
-    shakapacker: ^6.5.5
+    shakapacker: ^6.5.6
     smoothscroll-polyfill: ^0.4.4
     sortablejs: ^1.15.0
     stylelint: ^14.15.0
@@ -11330,9 +11330,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shakapacker@npm:^6.5.5":
-  version: 6.5.5
-  resolution: "shakapacker@npm:6.5.5"
+"shakapacker@npm:^6.5.6":
+  version: 6.5.6
+  resolution: "shakapacker@npm:6.5.6"
   dependencies:
     glob: ^7.2.0
     js-yaml: ^4.1.0
@@ -11350,7 +11350,7 @@ __metadata:
     webpack-cli: ^4.9.2 || ^5.0.0
     webpack-dev-server: ^4.9.0
     webpack-merge: ^5.8.0
-  checksum: 47029188adecbeceb2a55dc80a536b04d0721f5e181235e86d1d4753ad82943a29bbecdf0ccbfda53390dbfef7fe96909fd55b1424b4efac96caa4fc9aa70fc4
+  checksum: e4bc5a344d107f6a75920cbb82539c1d10c2122bc2ea4d674b16751218c7acbb8f61655128e0ff5924cd23638b78bdc715905574bb5baf93d408baf7609a3066
   languageName: node
   linkType: hard
 
